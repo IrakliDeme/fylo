@@ -1,0 +1,313 @@
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.link{
+    color:#07043B;
+    font-size: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.ilu{
+    width: 304px;
+    height: 224px;
+}
+.ilus-1{
+    max-width: 100%;
+}
+.ilu-2{
+    width:320px;
+    height:241px ;
+}
+.ilust-2{
+    max-width: 100%;
+    margin-top: 10%;
+}
+.logo{
+    width: 50px;
+    height:50px;
+}
+.loog{
+    max-width: 100%;
+}
+.all-your{
+    font-size: 24px;
+    color: #07043B;
+}
+.fylo-stories{
+    color:  #07043B;
+    font-style: 14px;
+}
+#imeil{
+    width: 304px;
+    height: 40px;
+    background-color: #F2F2F2; 
+    display: block;
+}
+.stay-prod{
+    font-size: 16px;
+    color: #07043B;
+    margin-top: 15%;
+    
+}
+.never-let{
+    font: size 14px; ;
+    color: #615F7E;;
+}
+.get-started{
+    margin-top: 16px;
+    width: 312px;
+    height: 40px;
+    background-color: #2F65F8;
+    color: white;
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+.white-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 280px;
+    height: 169px;
+    border-radius: 4px;
+    margin-bottom: 80px;
+    margin-top: 10%;
+}
+.quotes-div{
+    width:20px;
+    height: 20px;
+    margin-left: 10%;
+}
+.fucing-testimonial{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.has-joined{
+    font-size: 10px;
+    color: #07043B;
+    margin-left: 10%;
+}
+
+
+.white-bottom{
+    display: flex;
+    margin-left: 10%;
+}
+.testimonial{
+    max-width: 100%;
+}
+.kyle-founder{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+.kyle{
+    font-size: 9px;
+    color:#07043B;
+}
+.founder{
+    font-size: 6px;
+    color:#07043B
+}
+.get-already{
+    height: 345px;
+    background-color: #575988;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.get{
+    font-size: 18px;
+    color:white;
+}
+.it-only{
+    font-size: 14px;
+    color:white;
+}
+.emeil{
+    width:240px;
+    height:32px;
+    display: block;
+}
+.for-free{
+    margin-top: 8px;
+    width: 249px;
+    height: 32px;
+    background-color: #2F65F8;
+    color: white;
+}
+.botoom-card{
+    background-color:#07043B;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.nummer{
+    font-size: 16px;
+    color:white;
+    margin-left: 10px;
+    
+}
+.email{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.example{
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+}
+.bot-tex{
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+}
+.body-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us{
+    margin-left: 5%;
+}
+.conect-us{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.logo-2{
+    margin-left: 5%;
+    max-width: 100%;
+}
+.fucing-logo-2{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+.for-background{
+    background-image: url(./bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: #F8F8FE;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+.break-point-1{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.break-point-3{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    margin-top: 5%;
+}
+ @media screen and (min-width: 1400px) {
+    .for-background{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .get-already{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .last-break{
+        display: flex;
+        justify-content: space-around;
+    }
+    .get{
+        font-size: 32px;
+    }
+    .it-only{
+        font-size: 16px;
+    }
+    .emeil{
+        width: 480px;
+    }
+    .for-free{
+        width: 200px;
+        height: 48px;
+        border-radius: 4px;
+    }
+    .stay-prod{
+        font-size: 40px;
+       
+        
+    }
+    .never-let{
+        font-size: 16px;
+    }
+    .all-your{
+        font-size: 40px;
+    }
+    .fylo-stories{
+        font-size: 17px;
+    }
+    .ilu{
+        width: 640px;
+        height: 480px;
+    }
+    #imeil{
+    display: inline;
+    }
+    .get-started{
+        width: 200px;
+        height: 45px;
+    }
+    .white-card{
+        width:356px ;
+        height:215px ;
+        justify-content: center;
+    }
+    .ilu-2{
+        width: 542px;
+        height: 409px;
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+    }
+    .has-joined{
+        font-size: 13px;
+    }
+    .kyle{
+        color: #07043B;
+        font-size: 11px;
+    }
+    .founder{
+        font-size: 8px;
+    }
+    .link{
+        font-size: 16px;
+    }
+    .botoom-card{
+        height: 391px;
+    }
+}
